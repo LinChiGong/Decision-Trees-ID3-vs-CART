@@ -1,0 +1,7 @@
+- Author: Winston Lin
+
+- How to run this program: Run “src/Main.java” to view the demonstration with specified datasets. Run “src/WriteToFile.java” to perform regression and classification on all 4 datasets and write the results to an output file
+
+- Java version: 10.0.1
+
+- IDE used: Eclipse Oxygen.3a Release (4.7.3a)

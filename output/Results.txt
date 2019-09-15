@@ -1,0 +1,52 @@
+Perform classification and regression tasks. For classfication, test datasets with Decision Tree Algorithm ID3. Performance is measured by classification accuracy. For regression, test datasets with Decision Tree Algorithm CART. Performance is measured by MSE.
+
+ ---------------
+|CLASSIFICATION|
+ ---------------
+
+abalone
+----------------------
+Average accuracy (unpruned): 19.58%
+
+Average accuracy (pruned): 19.88%
+
+car
+----------------------
+Average accuracy (unpruned): 86.32%
+
+Average accuracy (pruned): 86.0%
+
+segmentation
+----------------------
+Average accuracy (unpruned): 74.94%
+
+Average accuracy (pruned): 75.67%
+
+ -----------
+|REGRESSION|
+ -----------
+
+machine
+----------------------
+Average MSE (without early stopping): 5417.99
+Best threshold: 50.0
+Average MSE (with early stopping): 5384.1
+
+forestfires
+----------------------
+Average MSE (without early stopping): 11741.37
+Best threshold: 10000.0
+Average MSE (with early stopping): 4305.06
+
+winequality-white
+----------------------
+Average MSE (without early stopping): 0.71
+Best threshold: 0.5
+Average MSE (with early stopping): 0.68
+
+winequality-red
+----------------------
+Average MSE (without early stopping): 0.59
+Best threshold: 0.5
+Average MSE (with early stopping): 0.52
+
