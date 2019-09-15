@@ -40,13 +40,13 @@ While ID3 and CART both work for either classification or regression problems. I
 
 - Classification:
 
-  ![alt text](classification.png)
+  ![alt text](output/classification.png)
 
   Note that the values are average classification accuracies calculated from performing cross validation on the test sets. Pruned trees are ID3 trees that are post-pruned by reduced error pruning using the validation set.
 
 - Regression:
 
-  ![alt text](regression.png)
+  ![alt text](output/regression.png)
 
   Here, the values are mean squared errors. Average MSEs of unpruned and pruned trees are calculated from performing cross validation on the test sets. Best cut-off threshold is obtained by tuning the threshold using the validation set. Pruned trees are CART trees that are pre-pruned by early stopping with the best threshold.
 
